@@ -1,7 +1,7 @@
 {
-	"name": "homebridge-micronova-agua-iot-stove",
+	"name": "homebridge-stove-controller",
 	"version": "1.1.0",
-	"description": "Homebridge plugin to manage a Micronova's Agua IOT WiFi module controlled stove",
+	"description": "Homebridge plugin to manage a pellet stove using the StufaSmart WiFi module and cloudWiNet platform.",
 	"main": "index.js",
 	"files": [
 		"index.js",
@@ -17,26 +17,23 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:securechicken/homebridge-micronova-agua-iot-stove.git"
+		"url": "git@github.com:angrynugget/homebridge-stove-controller.git"
 	},
 	"keywords": [
 		"homebridge-plugin",
 		"homebridge",
 		"micronova",
-		"agua-iot",
+		"stufasmart",
+		"WiNET",
 		"piazzetta",
 		"pellets",
 		"stove",
 		"heater-control"
 	],
-	"author": "@securechicken",
+	"author": "@angrynugget",
 	"license": "AGPL-3.0-only",
-	"funding": {
-		"type": "paypal",
-		"url": "https://www.paypal.com/donate?business=EJLS4QWSCUVKA&item_name=Support+SecureChicken+developments"
-	},
 	"bugs": {
-		"url": "https://github.com/securechicken/homebridge-micronova-agua-iot-stove/issues"
+		"url": "https://github.com/angrynugget/homebridge-stove=controller/issues"
 	},
 	"dependencies": {
 		"jsonwebtoken": "^8.5.1",
@@ -55,5 +52,5 @@
 		"module": true,
 		"node": true
 	},
-	"homepage": "https://github.com/securechicken/homebridge-micronova-agua-iot-stove"
+	"homepage": "https://github.com/angrynugget/homebridge-stove-controller"
 }
